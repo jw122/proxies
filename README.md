@@ -1,17 +1,20 @@
 # Proxies for Banned Sites
 Experiment to proxy banned websites through Handshake domains
 
+**Landing page**: https://namebase.unicornplatform.com
+
 <img src="https://www.thepirateproxy3se.com/images/upload/icons/og/article@1x1.jpg" width="300">
 
 
+
 ## Table of Contents
-1. Proxy Server Setup
-2. Domain Name and DNS (A Record)
-3. Nginx Proxy Configuration
-4. HTTPS Support
-5. Testing
-6. Current Issues
-7. Next Steps
+1. [Proxy Server Setup](https://github.com/jw122/proxies#proxy-server-setup)
+2. [Domain Name and DNS (A Record)](https://github.com/jw122/proxies#domain-name-and-dns-a-record)
+3. [Nginx Proxy Configuration](https://github.com/jw122/proxies#nginx-proxy-configuration)
+4. [HTTPS Support](https://github.com/jw122/proxies#https-support)
+5. [Testing](https://github.com/jw122/proxies#testing)
+6. [Current Issues](https://github.com/jw122/proxies#current-issues)
+7. [Next Steps](https://github.com/jw122/proxies#next-steps)
 
 ### Proxy Server Setup
 Spin up a Linux (Ubuntu) instance using a service of choice, such as Amazon EC2. This is where the proxy server will be created.  
