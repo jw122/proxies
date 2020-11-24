@@ -142,7 +142,7 @@ To verify if this would work in a country where The Pirate Bay is banned, you ca
 ```
 2020/11/23 15:17:25 [error] 7743#7743: *1 connect() to [2606:4700:7::a29f:8906]:443 failed (101: Network is unreachable) while connecting to upstream, client: 73.223.152.96, server: *.pirate.nb, request: "GET http://pirate.nb/ HTTP/1.1", upstream: "https://[2606:4700:7::a29f:8906]:443/", host: "pirate.nb"
 ```
-
+It is worth checking that the instance is [enabled for IPv6](https://docs.amazonaws.cn/en_us/AWSEC2/latest/UserGuide/using-instance-addressing.html#working-with-ipv6-addresses). 
 ### Next Steps
 - After addressing the existing issues, the exit criteria for the experiment would be this user experience/narrative: A user in India is currently unable to access The Pirate Bay since it is blocked at the DNS level. They get the LinkFrame chrome extension, and enter `http://pirate.nb` to access The Pirate Bay freely and privately.
 - Run ads on Google using keywords such as "pirate bay proxy". Clicking on the ad will take you to the landing page.
