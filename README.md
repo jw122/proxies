@@ -81,6 +81,13 @@ What do each of the fields mean?
 - `proxy_set_header X-Real-IP`: Includes the IP of the client
 - `request_uri`: The full original request URI, such as `/index.html`
 
+Other directives to consider:
+- `rewrite`: To replace parts of the uri, for example `rewrite ^/(.*)$ $1/index.html$2 last`
+- `proxy_set_header Referer "https://www.thepiratebay.org"`
+- `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for`
+- `proxy_pass_request_headers on`: Maintain the original request headers
+- `proxy_redirect`
+
 Save the file and restart nginx with `systemctl restart nginx`.
 
 If your Namebase domain already has an A record set up to point to your server running on EC2, then you should be able to access it via `http://pirate.nb` if you have the Linkframe extension or [NextDNS](https://learn.namebase.io/starting-from-zero/how-to-access-handshake-sites).
