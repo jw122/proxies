@@ -150,8 +150,9 @@ It is worth checking that the instance is [enabled for IPv6](https://docs.amazon
 - Track downloads of the extension
 
 ## Resources
+- [nginx-bypass-gfw](https://github.com/caiguanhao/nginx-bypass-gfw)
 - [Virtual Hosts on nginx (CSC309)](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
-- [https://unix.stackexchange.com/questions/290141/nginx-reverse-proxy-redirection](https://unix.stackexchange.com/questions/290141/nginx-reverse-proxy-redirection)
+- [Nginx reverse proxy redirection](https://unix.stackexchange.com/questions/290141/nginx-reverse-proxy-redirection)
 - [How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04)
 - [Example with similar goal: nginx-bypass-gfw](https://github.com/caiguanhao/nginx-bypass-gfw)
 - [How to set up Nginx reverse proxy for Blocked Websites](https://yubolun.com/tutorial/2017/03/10/nginx-reverse-proxy/#edit-reverse-proxy-config-file)
